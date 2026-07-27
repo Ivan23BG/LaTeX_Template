@@ -4,26 +4,26 @@
 
 % ---------- COLORS ----------
 \ifdarkmode          % chktex 1
-    % Page
-    \definecolor{pagebg}{RGB}{0,0,0}
-    \definecolor{pagetext}{RGB}{230,230,230}
+    % Page (Catppuccin Mocha)
+    \definecolor{pagebg}{HTML}{1E1E2E}        % Mocha Base
+    \definecolor{pagetext}{HTML}{CDD6F4}      % Mocha Text
 
     % Links
-    \definecolor{linkcolor}{RGB}{86,156,214}
+    \definecolor{linkcolor}{HTML}{89B4FA}     % Mocha Blue
 
-    % Code
-    \definecolor{codebg}{RGB}{32,32,32}       % very dark grey
-    \definecolor{codeframe}{RGB}{70,70,70}
-    \definecolor{codetext}{RGB}{230,230,230}  % near-white
-    \definecolor{keywordcolor}{RGB}{86,156,214}
-    \definecolor{stringcolor}{RGB}{214,157,133}
-    \definecolor{commentcolor}{RGB}{106,153,85}
-    \definecolor{numbercolor}{RGB}{130,130,130}
+    % Code (Cohesive syntax highlighting)
+    \definecolor{codebg}{HTML}{181825}        % Mocha Mantle (slightly darker than page)
+    \definecolor{codeframe}{HTML}{313244}     % Mocha Surface 0
+    \definecolor{codetext}{HTML}{CDD6F4}      % Mocha Text
+    \definecolor{keywordcolor}{HTML}{CBA6F7}  % Mocha Mauve
+    \definecolor{stringcolor}{HTML}{A6E3A1}   % Mocha Green
+    \definecolor{commentcolor}{HTML}{6C7086}  % Mocha Overlay 0 (muted gray)
+    \definecolor{numbercolor}{HTML}{F38BA8}   % Mocha Red
 
-    % Theorems
-    \definecolor{theorembg}{RGB}{0,0,0}
-    \definecolor{theoremframe}{RGB}{80,80,80}
-    \definecolor{theoremtext}{RGB}{230,230,230}
+    % Theorems (Soft callout box style)
+    \definecolor{theorembg}{HTML}{252538}     % Slightly lighter than page for depth
+    \definecolor{theoremframe}{HTML}{F5C2E7}  % Mocha Pink accent line
+    \definecolor{theoremtext}{HTML}{CDD6F4}   % Mocha Text
 \else
     % Page
     \definecolor{pagebg}{RGB}{255,255,255}

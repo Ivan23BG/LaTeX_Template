@@ -20,7 +20,7 @@
 \usepackage{fancyhdr}            % Custom headers and footers
 \usepackage{titlesec}            % Section title formatting
 \usepackage{titletoc}            % Table of contents formatting
-\usepackage{sectsty}             % Section font customization
+% \usepackage{sectsty}             % Section font customization
 \usepackage[a4paper,hmargin=30mm,vmargin=30mm]{geometry}
 
 % ==============================================================================
@@ -99,7 +99,11 @@
 \setlength{\parindent}{0pt}       % Remove paragraph indentation
 
 % --- Section header styling ---
-\allsectionsfont{\color{astral}\normalfont\sffamily\bfseries} % Style all section headers
+% \allsectionsfont{\color{astral}\normalfont\sffamily\bfseries} % Style all section headers
+% --- Section header styling (titlesec modern equivalent) ---
+\titleformat*{\section}{\color{astral}\normalfont\sffamily\bfseries\Large}
+\titleformat*{\subsection}{\color{astral}\normalfont\sffamily\bfseries\large}
+\titleformat*{\subsubsection}{\color{astral}\normalfont\sffamily\bfseries\normalsize}
 
 % ==============================================================================
 % CUSTOM COMMANDS & MACROS
